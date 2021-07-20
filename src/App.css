@@ -52,6 +52,7 @@
   z-index: 1;
   text-align: center;
   margin-top: 150px ;
+  padding-left: 110px !important;
 }
 
 .des1 {
@@ -75,6 +76,15 @@
   z-index: 3;
   background: white;
   opacity: 0.8;
+}
+
+.search-btn-xs .input-group-text {
+  background-color: transparent;
+  border: none;
+  border-bottom: 2px solid #A9DEF5;
+  z-index: 3;
+  background: white;
+  opacity: 1;
 }
 
 .search .form-control, .search .form-control:focus {
@@ -149,7 +159,7 @@ button.btn-search {
 }
 
 .div2-design { 
-  width: 69%;
+  width: 72.3%;
   height: 100%;
   position: absolute;
   right: -150px;
@@ -173,6 +183,10 @@ button.btn-search {
 .image-center {
   margin-left: auto!important;
   margin-right: auto!important;
+}
+
+.-mt-50{
+  margin-top: -50px !important;
 }
 
 .text-low {
@@ -233,6 +247,7 @@ button.btn-search {
   font-weight:500;
   color: #000 !important;
   border: 0;
+  box-shadow: none!important;
 }
 
 .w-60 {
@@ -271,6 +286,26 @@ button.btn-search {
   box-shadow: none !important;
 }
 
+.search-btn-xs {
+  display: none !important;
+}
+
+.fs-10 {
+  font-size: 10px !important;
+}
+
+.mobile-grad-bottom {
+  display: none;
+}
+
+.flex-end {
+  display: none;
+}
+
+.d-lg-none {
+  display: none !important;
+}
+
 @media screen and (max-width: 480px) {
   .home-btn, .sign-in-btn {
     display: none;
@@ -293,7 +328,178 @@ button.btn-search {
     box-shadow: none !important;
   }
 
+  .head1, .des1, .search, .btn-search {
+    display: none !important;
+  }
+
+  .search-btn-xs {
+    display: block !important;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-top: 75px;
+  }
+
+  .search-btn-xs .form-control {
+    border: none;
+    border-bottom: 2px solid #A9DEF5;
+    box-shadow: none!important;
+    z-index:3;
+    background: white;
+    opacity: 1;
+    width: 250px!important;
+  }
+
+  .d-col {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .search-btm {
+    display: none !important;
+  }
+
+  .tags-container {
+    font-size: 18px !important;
+    width: 100%;
+  }
+
+  .inner-tag-container {
+    display: flex;
+    flex-direction: column;
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+
+  .inner-tag-container div {
+    justify-content: center !important;
+    align-items: center!important;
+  }
+
+  .tag {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .tags {
+    padding-left: auto !important;
+    padding-right: auto !important;
+  }
+
+  .mt-200 {
+    margin-top: 40px !important;
+  }
+
+  .mb-50 {
+    margin-bottom: 20px !important;
+  }
+
+  .tfh {
+    margin-top: 0 !important;
+  }
+
+  .fs-28 {
+    font-size: 28px !important;
+  }
+
+  .fs-20 {
+    font-size: 20px !important;
+    width: 90% !important
+  }
+
+  .fs-19 {
+    font-size: 19px !important;
+    text-align: center !important;
+    padding-left: 10px!important;
+    padding-right: 10px!important;
+  }
+
+  .fs-14 {
+    font-size: 14px !important;
+  }
+
+  .fs-12 {
+    font-size: 12px !important;
+    text-align: center !important;
+    padding-left: 10px!important;
+    padding-right: 10px!important;
+  }
+
+  .fs-11 {
+    font-size: 11px!important;
+  }
+
+  .flex-top {
+    margin-top: auto!important;
+    margin-bottom: auto !important;
+  }
+
   .mockup {
-    width: 375px;
+    width: 90%;
+    margin-left: auto!important;
+    margin-right: auto!important;
+  }
+
+  .text-grad {
+    display: none!important;
+  }
+
+  body {
+    overflow-x: hidden !important;
+    width: 100vw ;
+  }
+
+  .div1-design {
+    display: none;
+  }
+
+  .div2-design {
+    display: none;
+  }
+
+  .flex-end {
+    display: block;
+  }
+
+  .mobile-grad-bottom {
+    display: block;
+    position:absolute;
+    width: 100vw;
+    left: 0;
+    overflow-x: hidden !important;
+  }
+
+  .gradPic {
+    width: 113vw;
+  }
+
+  .imgTweet {
+    z-index: 5!important;
+  }
+
+  .b-g {
+    border-top: 2px solid grey;
+    margin-top: 60px;
+  }
+
+  .top-x {
+    top:60px;
+  }
+
+  .z-5 {
+    z-index: 5 !important;
+  }
+
+  .m-xs-2 {
+    margin-top: 20px !important;
+    margin-bottom: 20px !important;
+  }
+
+  .dnone {
+    display: none !important;
+  }
+
+  .dblock {
+    display: block !important;
   }
 }
