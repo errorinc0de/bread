@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/bread/static/css/main.77303e55.chunk.css",
-    "main.js": "/bread/static/js/main.f997036d.chunk.js",
-    "main.js.map": "/bread/static/js/main.f997036d.chunk.js.map",
+    "main.css": "/bread/static/css/main.eb25d54c.chunk.css",
+    "main.js": "/bread/static/js/main.29e83b71.chunk.js",
+    "main.js.map": "/bread/static/js/main.29e83b71.chunk.js.map",
     "runtime-main.js": "/bread/static/js/runtime-main.05e5845f.js",
     "runtime-main.js.map": "/bread/static/js/runtime-main.05e5845f.js.map",
     "static/css/2.4be38407.chunk.css": "/bread/static/css/2.4be38407.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.a84620ce.chunk.js.map": "/bread/static/js/3.a84620ce.chunk.js.map",
     "index.html": "/bread/index.html",
     "static/css/2.4be38407.chunk.css.map": "/bread/static/css/2.4be38407.chunk.css.map",
-    "static/css/main.77303e55.chunk.css.map": "/bread/static/css/main.77303e55.chunk.css.map",
+    "static/css/main.eb25d54c.chunk.css.map": "/bread/static/css/main.eb25d54c.chunk.css.map",
     "static/js/2.6d79d4f1.chunk.js.LICENSE.txt": "/bread/static/js/2.6d79d4f1.chunk.js.LICENSE.txt",
     "static/media/globe.9aac123d.svg": "/bread/static/media/globe.9aac123d.svg",
     "static/media/insta.abe969fe.svg": "/bread/static/media/insta.abe969fe.svg",
@@ -20,7 +20,7 @@
     "static/media/logo-top.7121fe5a.svg": "/bread/static/media/logo-top.7121fe5a.svg",
     "static/media/mail.e2d90f3f.svg": "/bread/static/media/mail.e2d90f3f.svg",
     "static/media/mobile-gradient-bottom.ccdd1928.svg": "/bread/static/media/mobile-gradient-bottom.ccdd1928.svg",
-    "static/media/App.css": "/bread/static/media/mobile-gradient-top.b6aa59be.svg",
+    "static/media/mobile-gradient-top.b6aa59be.svg": "/bread/static/media/mobile-gradient-top.b6aa59be.svg",
     "static/media/tablet-mockup.57cde9ff.png": "/bread/static/media/tablet-mockup.57cde9ff.png",
     "static/media/tweet.6333779b.svg": "/bread/static/media/tweet.6333779b.svg",
     "static/media/twitter.9f69c4e6.svg": "/bread/static/media/twitter.9f69c4e6.svg"
@@ -29,7 +29,7 @@
     "static/js/runtime-main.05e5845f.js",
     "static/css/2.4be38407.chunk.css",
     "static/js/2.6d79d4f1.chunk.js",
-    "static/css/main.77303e55.chunk.css",
-    "static/js/main.f997036d.chunk.js"
+    "static/css/main.eb25d54c.chunk.css",
+    "static/js/main.29e83b71.chunk.js"
   ]
 }
